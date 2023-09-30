@@ -1,0 +1,20 @@
+﻿<Window x:Class="LocationVehicule.Acces"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LocationVehicule"
+        mc:Ignorable="d"
+        Title="Accés" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="210" Margin="57,114,0,0" VerticalAlignment="Top" Width="200" Source="/Images/Clé.jpg" Stretch="UniformToFill"/>
+        <Label Content="Nom d'utilisateur:" HorizontalAlignment="Left" Margin="290,114,0,0" VerticalAlignment="Top" Height="36" Width="142" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Mot de passe:" HorizontalAlignment="Left" Margin="290,170,0,0" VerticalAlignment="Top" Height="36" Width="142" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.539,1.079"/>
+        <TextBox x:Name="txtUtilisateur" HorizontalAlignment="Left" Margin="432,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="23" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="306,286,0,0" VerticalAlignment="Top" Height="30" Width="126" FontWeight="Bold" FontSize="14" Click="btnOk_Click"/>
+        <Button x:Name="btnAnnuler" Content="Annuler" HorizontalAlignment="Left" Margin="465,286,0,0" VerticalAlignment="Top" Height="30" Width="120" FontWeight="Bold" FontSize="14" Click="btnAnnuler_Click"/>
+        <PasswordBox x:Name="pxbPassword" HorizontalAlignment="Left" Margin="432,174,0,0" VerticalAlignment="Top" Width="178" Height="23" FontWeight="Bold" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="153" Margin="28,99,0,0" VerticalAlignment="Top" Width="173" Source="/Clé.jpg"/>
+
+    </Grid>
+</Window>
